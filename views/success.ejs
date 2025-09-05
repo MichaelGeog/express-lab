@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title><%= title %></title>
+  </head>
+  <body>
+    <%- include('partials/_nav') %>
+
+    <h1><%= heading %></h1>
+    <p>Thanks, <strong><%= data.name %></strong>! Your message was:</p>
+    <blockquote><%= data.message %></blockquote>
+
+    <p><a href="/">Back home</a></p>
+  </body>
+</html>
